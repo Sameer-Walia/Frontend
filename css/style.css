@@ -1,0 +1,661 @@
+* {
+    font-family: "Kumbh Sans", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Prompt", sans-serif;
+}
+
+.container {
+    width: 1100px;
+}
+
+.pd
+
+/* for common padding*/
+    {
+    padding: 100px 0px;
+}
+
+.pd1
+
+/* for common padding*/
+    {
+    padding: 30px 0px;
+}
+
+.gr {
+    background-color: #f8f9fa;
+}
+
+.mr
+
+/* for common margin*/
+    {
+    margin: 30px 0px;
+}
+
+.hd
+
+/* for common heading*/
+    {
+    font-size: 30px;
+    font-weight: 700;
+    color: #3f3a64;
+}
+
+.para {
+    font-size: 18px;
+    line-height: 28px;
+    color: #666;
+    opacity: 0.8;
+}
+
+.navbar {
+    padding: 15px 0px !important;
+    background-color: white;
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.08);
+}
+
+.navbar-brand span {
+    color: #f3525a;
+}
+
+.navbar .navbar-brand h3 {
+    color: #3f3a64;
+    font-size: 30px !important;
+    font-weight: 600;
+    /* for bold*/
+}
+
+.navbar-nav .nav-link {
+    padding: 0px 10px;
+    color: #666;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.navbar-nav .nav-link.active {
+    color: #f3525a !important;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #f3525a !important;
+}
+
+.search {
+    color: #f3525a !important;
+    padding: 7px 10px;
+}
+
+.search:hover {
+    background-color: red;
+    color: white !important;
+    border-radius: 100px;
+}
+
+a.btn1 {
+    padding: 12px 35px;
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+    background-color: #f3525a !important;
+    border-radius: 5px;
+}
+
+a.btn1:hover {
+    background-color: #dc3545 !important;
+    color: white;
+}
+
+.size {
+    font-size: 1.3em;
+}
+
+.navbar-toggler {
+    background-color: #f3525a !important;
+    box-shadow: none !important;
+    border: none;
+}
+
+/* header css close */
+
+.carousel-caption {
+    position: absolute;
+    top: 38%;
+}
+
+.carousel-indicators button {
+    height: 10px !important;
+    width: 10px !important;
+    border-radius: 100%;
+    margin-right: 10px !important;
+}
+
+.carousel-caption h3 {
+    font-size: 36px;
+    margin-bottom: 14px;
+    color: #fff;
+    font-weight: 100px;
+}
+
+.carousel-caption h1 {
+    color: #fff;
+    font-size: 60px;
+    line-height: 90px;
+    /* text-transform: capitalize; */
+    font-weight: 700;
+}
+
+.carousel-caption p {
+    color: #f3f3f3;
+    font-size: 20px;
+    opacity: 0.8;
+    margin-bottom: 50px;
+}
+
+/* carousel(slider) css close */
+
+@media only screen and (max-width:991px) {
+    .navbar-toggler {
+        position: fixed;
+        right: 12%;
+        top: 3%;
+    }
+
+    .size {
+        position: fixed;
+        right: 20%;
+        top: 3.5%;
+    }
+
+    .navbar .btn1 {
+        display: none;
+    }
+
+    #carouselExampleCaptions img {
+        height: 500px;
+    }
+
+    .carousel-caption {
+        position: absolute;
+        top: 25%;
+    }
+
+    .carousel-caption h3 {
+        font-size: 26px;
+        margin-bottom: 14px;
+    }
+
+    .carousel-caption h1 {
+        font-size: 40px;
+        line-height: 80px;
+    }
+
+    .carousel-caption p {
+        font-size: 20px;
+        opacity: 0.8;
+        margin-bottom: 30px;
+    }
+
+}
+
+@media only screen and (max-width:768px) {
+    .navbar-toggler {
+        position: fixed;
+        right: 8%;
+    }
+
+    .size {
+        position: fixed;
+        right: 22%;
+    }
+
+    .navbar .btn1 {
+        display: none;
+    }
+
+    #carouselExampleCaptions img {
+        height: 400px;
+    }
+
+    .carousel-caption {
+        position: absolute;
+        top: 18%;
+    }
+
+    .carousel-caption h3 {
+        font-size: 18px;
+        margin-bottom: 7px;
+    }
+
+    .carousel-caption h1 {
+        font-size: 26px;
+    }
+
+    .carousel-caption p {
+        font-size: 15px;
+        opacity: 0.8;
+        margin-bottom: 15px;
+    }
+
+}
+
+
+a.btn2 {
+    padding: 12px 35px;
+    font-size: 18px;
+    font-weight: 600;
+    color: #f3525a;
+    border: 1px solid red;
+}
+
+a.btn2:hover {
+    background-color: #f3525a;
+    color: white;
+}
+
+/* about css close */
+
+#services .card-body {
+    padding: 30px 25px;
+    box-shadow: 0px 9px 24px 5px rgba(0, 0, 0, 0.04);
+}
+
+#services .card-body span {
+    font-size: 25px;
+    color: #3f3a64;
+    margin-top: 10px;
+}
+
+#services .card-body a {
+    font-size: 22px;
+    line-height: 28px;
+    color: #3f3a64;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+#services .card-body a:hover {
+    color: #f3525a !important;
+    ;
+}
+
+/* services css close */
+
+#solution .nav-item {
+    font-weight: 600;
+    font-size: 18px;
+    color: #3f3a64;
+    margin-right: 15px;
+}
+
+#solution .nav-item button {
+    background-color: #f8f9fa;
+    color: #3f3a64;
+    padding: 15px;
+}
+
+#solution .nav-item button.active {
+    background-color: #f3525a !important;
+    color: white;
+}
+
+#solution .tab-pane h3 {
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 30px;
+    margin-bottom: 15px;
+    margin-top: 10px;
+    color: #3f3a64;
+}
+
+#solution .tab-pane li {
+    margin-bottom: 10px;
+    color: #3f3a64;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+#solution .tab-pane li span {
+    font-size: 12px;
+    margin-right: 16px;
+    opacity: 0.4;
+}
+
+/* tabs css close */
+#solution .accordion button {
+    padding: 1em 0;
+    color: #3f3a64;
+    font-size: 1.15rem;
+    font-weight: 700;
+    box-shadow: none;
+    position: relative;
+}
+
+#solution .accordion button:hover {
+    color: #f3525a !important;
+}
+
+#solution .accordion .accordion-item {
+    border: none;
+    border-bottom: 1px solid #eee;
+}
+
+#solution .accordion .accordion-body {
+    padding-left: 0px;
+}
+
+#solution .accordion-button:not(.collapsed) {
+    color: white !important;
+    background-color: #f3525a !important;
+    padding: 15px 20px;
+    box-shadow: none;
+    border-radius: 5px;
+}
+
+#solution .accordion-button:not(.collapsed):hover {
+    color: white !important;
+}
+
+#solution .accordion-button::after {
+    background-image: none;
+}
+
+#solution .accordion-button span {
+    position: absolute;
+    right: 3%;
+}
+
+#solution .accordion-button span.plus {
+    display: block;
+}
+
+#solution .accordion-button span.minus {
+    display: none;
+}
+
+#solution .accordion-button:not(.collapsed) span.plus {
+    display: none;
+}
+
+#solution .accordion-button:not(.collapsed) span.minus {
+    display: block;
+}
+
+/* accordian close */
+/* solution css close */
+
+#process .effect {
+    position: relative;
+}
+
+#process .eff {
+    background-color: rgba(0, 90, 255, 0.65);
+    color: white;
+    position: absolute;
+    top: 0%;
+    height: 100%;
+    padding: 30px;
+    padding-top: 50px;
+    transform: scale(0);
+    /* hide */
+    transition: all 0.5s ease-out;
+}
+
+#process .effect:hover .eff {
+    transform: scale(1);
+    /* show */
+}
+
+#process .eff h4 {
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 28px;
+    margin-bottom: 18px;
+}
+
+#process .eff p {
+    color: white;
+    opacity: 1;
+}
+
+#process .effect span.fa {
+    color: #fff;
+    background-color: #f3525a;
+    padding: 10px;
+    border-bottom-left-radius: 5px;
+    position: absolute;
+    bottom: 0%;
+    left: 0%;
+    transition: all 0.4s linear;
+}
+
+#process .effect:hover span.fa {
+    opacity: 0;
+}
+
+/* process css close */
+
+#join a.btn3 {
+    padding: 12px 35px;
+    font-size: 18px;
+    font-weight: 600;
+    color: black;
+    border: 1px solid black;
+}
+
+#join a.btn3:hover {
+    background-color: black;
+    color: white;
+}
+
+/* join css close */
+
+#products .pro {
+    background-color: white;
+    box-shadow: 0px 9px 24px 5px rgba(0, 0, 0, 0.2);
+    padding: 2.5rem 2rem;
+    transition: all 0.5 ease-out;
+}
+
+#products .pro span {
+    font-size: 30px;
+    color: #f3525a;
+    margin-bottom: 20px;
+    transition: all 0.5s ease;
+    transform: scale(1);
+}
+
+#products .pro h3 {
+    font-size: 24px;
+    line-height: 34px;
+    font-weight: 700;
+    color: #f3525a;
+    transition: all 0.3s ease;
+}
+
+#products .pro p {
+    color: #666;
+    transition: all 0.3s ease;
+}
+
+#products .pro a {
+    font-weight: 600;
+    font-size: 16px;
+    color: #3f3a64;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+#products .pr1:hover {
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.74), rgba(0, 0, 0, 0.67)), url(../images/s1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#products .pr2:hover {
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.74), rgba(0, 0, 0, 0.67)), url(../images/s3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#products .pr3:hover {
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.74), rgba(0, 0, 0, 0.67)), url(../images/s4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#products .pro:hover h3,
+#products .pro:hover p,
+#products .pro:hover a,
+#products .pro:hover span {
+    color: white;
+}
+
+#products .pro:hover span {
+    transform: scale(1.1);
+}
+
+/* products css close */
+
+
+#idea .effect {
+    position: relative;
+    overflow: hidden;
+}
+
+#idea .effect img {
+    transform: scale(1);
+    transition: all 0.5s linear;
+}
+
+#idea .effect:hover img {
+    transform: scale(1.3);
+}
+
+#idea .eff span {
+    font-size: 25px;
+    background-color: rgba(0, 90, 255, 0.65);
+    color: white;
+    position: absolute;
+    top: 0%;
+    height: 100%;
+    width: 100%;
+    padding-top: 30%;
+    padding-left: 47%;
+    transform: rotateY(180deg) scale(0.5, 0.5); 
+    transition: all 0.5s ease-out;
+    opacity: 0;
+}
+
+#idea .effect:hover .eff span {
+    transform: scale(1);
+    opacity: 1;
+}
+
+#idea .bor {
+    border: 1px solid #eee;
+}
+
+#idea .bor .cc {
+    color: #f3525a;
+}
+
+#idea .bor h6 {
+    font-size: 1rem;
+    opacity: 0.8;
+    padding: 15px;
+}
+
+#idea .bor a {
+    font-size: 18px;
+    line-height: 20px;
+    font-weight: 600;
+    color: #3f3a64;
+    text-decoration: none;
+    padding: 14px;
+}
+
+#idea a:hover {
+    color: #f3525a !important;
+}
+
+#idea .bor a .fa {
+    padding-bottom: 34px;
+}
+
+/* ideas css close */
+
+#footer {
+    background-color: #182c44 !important;
+    position: relative;
+}
+
+#footer h3 {
+    color: white;
+    font-size: 26px;
+    font-weight: 400;
+}
+
+#footer p {
+    padding-top: 15px;
+    color: white;
+}
+
+#footer .fa-brands {
+    font-size: 20px;
+    margin-right: 15px;
+    color: white;
+    background-color: #102339;
+    border-radius: 100%;
+    padding: 10px;
+    opacity: 0.7;
+}
+
+#footer .fa-brands:hover {
+    background-color: #f3525a;
+    opacity: 1;
+}
+
+#footer ul li a {
+    text-decoration: none;
+    opacity: 0.8;
+    color: white;
+}
+
+#footer ul li {
+    margin-bottom: 14px;
+    color: white;
+}
+
+#footer .bb {
+    border-bottom: 1px solid whitesmoke;
+    padding-top: 50px;
+}
+
+#footer a.arrow {
+    color: white;
+    background-color: #f3525a;
+    font-size: 22px;
+    position: absolute;
+    right: 1.3%;
+    bottom: 3%;
+    padding: 9px 14px;
+    border-radius: 100%;
+    opacity: 0.8;
+}
+
+#footer a .arrow:hover {
+    opacity: 1;
+}
+
+#footer a:hover {
+    color: white;
+    opacity: 1;
+}
